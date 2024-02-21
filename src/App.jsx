@@ -1,11 +1,10 @@
 import "./App.css";
-
-import List from "./components/List";
+import Link from "./components/Link";
 
 function App() {
   return (
     <div className="container">
-      <List items={["Apples", "Mangoes", "Oranges", "Pineapples"]} />
+      <Link />
     </div>
   );
 }
